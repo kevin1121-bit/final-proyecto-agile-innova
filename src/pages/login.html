@@ -1,0 +1,25 @@
+<div id="login-container" class="login-container d-flex flex-column-reverse flex-md-row">
+    <div class="col-sm-12 col-md-6 d-flex justify-content-center align-items-center">
+        <img src="src/assets/img/main.png" alt="img" class="main-img"
+         title="image main">
+    </div>
+    <div class="col-sm-12 col-md-6 d-flex flex-column justify-content-center">
+        <div class="d-flex justify-content-center align-items-center">
+            <form id="form-login" class="form">
+                <div class="container-logo"><img
+                        src="src/assets/img/logo_afinity.png"
+                        alt="no carga" class="logo"></div>
+                <div class="mb-3">
+                    <label for="formGroupExampleInput" class="form-label">Usuario</label>
+                    <input required type="text" class="form-control" id="username" placeholder="Usuario">
+                </div>
+                <div class="mb-3">
+                    <label for="formGroupExampleInput" class="form-label">Contraseña</label>
+                    <input required type="password" class="form-control" id="password" placeholder="Contraseña">
+                </div>
+                <button type="submit" class="button-login">Entrar</button>
+            </form>
+        </div>
+        <div id="message-error" class="error-message d-none"><span id="custom-message" class="text-light"></span></div>
+    </div>
+</div>

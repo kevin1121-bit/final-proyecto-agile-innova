@@ -1,0 +1,22 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Chicle&display=swap');
+
+:root {
+    font-family: 'Chicle', serif;
+    font-size: large;
+}
+body {
+    background-image: url("/src/assets/img/banner.jpeg");
+    backdrop-filter: blur(1px);
+    background-size: cover;
+}
+.loading {
+    filter: blur(4px);
+    pointer-events: none;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}

@@ -1,0 +1,87 @@
+:root {
+    font-family: 'Chicle', serif;
+    font-size: large;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url("/src/assets/img/banner.jpeg");
+    display: flex;
+    align-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    overflow: hidden;
+    font-family: 'Chicle', serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.piedra {
+    position: relative;
+    padding: 80px;
+    border-radius: 35px;
+    background-color: rgba(255, 255, 255, 0.468);
+    width: 600px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.signo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton {
+    background-color: rgba(251, 251, 251, 0.83);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    padding: 8px 13px 8px 13px;
+    border-radius: 10px;
+    margin-top: 30px;
+    font-size: large;
+}
+
+#imagen1 {
+    width: 350px;
+    height: 350px;
+    object-fit: contain;
+}
+
+.ocultar {
+    display: none;
+}
+
+.mostrar_desc {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.desc {
+    text-align: center;
+}
+
+.volver {
+    position: absolute;
+    top: 35px;
+    left: 70px;
+    background-color: transparent;
+    border: none;
+    color: rgba(248, 248, 249, 0.83);
+    cursor: pointer;
+    font-size: large;
+}

@@ -1,0 +1,28 @@
+.divform {
+
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.logo-afinity {
+    height: 420px;
+    width: 420px;
+}
+
+button {
+    padding: 5px;
+    width: 200px;
+}
+
+.form-label-2 {
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}

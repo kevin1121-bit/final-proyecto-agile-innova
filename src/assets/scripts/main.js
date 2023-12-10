@@ -14,7 +14,7 @@ window.addEventListener("load", () => {
     footer.classList.add("d-none");
     loadingContainer.classList.remove("loading");
     const {username, password} = JSON.parse(localStorage.getItem("user"))
-    authUser(username,password,navigator,error)
+    authUser(username,password,navigator, ()=> {})
 
   } else {
     footer.classList.add("d-none");

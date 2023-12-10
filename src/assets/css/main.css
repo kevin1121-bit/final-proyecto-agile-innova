@@ -4,6 +4,7 @@
 :root {
     font-family: 'Chicle', serif;
     font-size: large;
+    box-sizing: border-box;
 }
 body {
     background-image: url("/src/assets/img/banner.jpeg");

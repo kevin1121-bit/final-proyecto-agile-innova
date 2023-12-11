@@ -1,4 +1,4 @@
-:root {
+*{
     font-family: 'Chicle', serif;
     font-size: large;
 }
@@ -44,7 +44,22 @@ main {
     align-items: center;
 }
 
+
 .boton {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(251, 251, 251, 0.83);    
+    cursor: pointer;
+    color: rgb(7, 7, 7);
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: large;
+    margin-left: 230px;
+}
+
+/*.boton,.comment {
     background-color: rgba(251, 251, 251, 0.83);
     color: rgb(0, 0, 0);
     cursor: pointer;
@@ -52,7 +67,21 @@ main {
     border-radius: 10px;
     margin-top: 30px;
     font-size: large;
-}
+    display: flex;
+    flex-direction: row;
+}*/
+
+/*.comment {
+    background-color: rgba(251, 251, 251, 0.83);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    padding: 8px 13px 8px 13px;
+    border-radius: 10px;
+    margin-top: 30px;
+    font-size: large;
+    display: flex;
+    flex-direction: row;
+}*/
 
 #imagen1 {
     width: 350px;
@@ -79,9 +108,17 @@ main {
     position: absolute;
     top: 35px;
     left: 70px;
-    background-color: transparent;
-    border: none;
-    color: rgba(248, 248, 249, 0.83);
+    background-color: rgba(251, 251, 251, 0.83);
+    border: 2px solid black;
+    border-radius: 10px;
+    color: rgba(0, 0, 0, 0.83);
     cursor: pointer;
     font-size: large;
+    
 }
+
+
+
+
+
+

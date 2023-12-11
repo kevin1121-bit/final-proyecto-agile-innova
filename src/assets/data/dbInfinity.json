@@ -8,6 +8,14 @@
       "id": 2,
       "username": "jero",
       "password": "12345"
+    },{
+      "id" : 3,
+      "username": "Lu",
+      "password": "123456"
+    },{
+      "id" : 4,
+      "username": "Manuel",
+      "password": "1234567"
     }
   ]
 }

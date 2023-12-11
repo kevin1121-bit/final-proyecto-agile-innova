@@ -4,7 +4,7 @@ function addComment() {
     let commentText = document.getElementById("commentText").value;
   
     if (username.trim() === "" || commentText.trim() === "") {
-      alert("Por favor, ingrese su nombre y comentario.");
+      alert("Ingrese tu nombre y agrega un comentario.");
       return;
     }
 

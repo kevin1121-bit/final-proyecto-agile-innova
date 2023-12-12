@@ -4,29 +4,25 @@
       "id": 1,
       "username": "kevin",
       "password": "1234",
-      "piedra": "",
-      "coments": []
+      "piedra": ""
     },
     {
       "id": 2,
       "username": "jero",
       "password": "12345",
-      "piedra": "",
-      "coments": []
+      "piedra": ""
     },
     {
       "id": 3,
       "username": "Lu",
       "password": "123456",
-      "piedra": "",
-      "coments": []
+      "piedra": ""
     },
     {
       "id": 4,
       "username": "Manuel",
       "password": "1234567",
-      "piedra": "",
-      "coments": []
+      "piedra": ""
     }
   ],
   "piedras": [
@@ -104,5 +100,15 @@
         "nombre": "Piscis"
       }
     ]
+  ],
+  "comments": [
+    {
+      "id": 1
+    },
+    {
+      "username": "kevin",
+      "comment": "fgnnjmfghmn",
+      "id": 2
+    }
   ]
 }

@@ -10,11 +10,11 @@
         height: auto;
     }
 }
-.container-logo {
+.container-logo-login {
     display: block;
     margin: 0 auto;
 }
-.container-logo .logo {
+.container-logo-login .logo {
     width: 200px;
     height: auto;
     aspect-ratio: 1/1;

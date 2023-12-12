@@ -10,17 +10,18 @@ const router = new Router(PATHS);
 window.addEventListener("load", () => {
   footer.classList.remove("d-none");
   loadingContainer.classList.add("loading");
-  if (localStorage.getItem("user")) {
-    footer.classList.add("d-none");
-    loadingContainer.classList.remove("loading");
-    const {username, password} = JSON.parse(localStorage.getItem("user"))
-    authUser(username,password,navigator, ()=> {})
-
-  } else {
-    footer.classList.add("d-none");
-    loadingContainer.classList.remove("loading");
-    router.load("login");
-  }
+  setTimeout(() => {
+    if (localStorage.getItem("user")) {
+      const { username, password } = JSON.parse(localStorage.getItem("user"))
+      authUser(username, password, navigator, () => { })
+      footer.classList.add("d-none");
+      loadingContainer.classList.remove("loading");
+    } else {
+      footer.classList.add("d-none");
+      loadingContainer.classList.remove("loading");
+      router.load("login");
+    }
+  }, 1000)
 });
 
 export function navigator(path = "/") {

@@ -14,10 +14,6 @@
     width: 420px;
 }
 
-button {
-    padding: 5px;
-    width: 200px;
-}
 
 .form-label-2 {
     color: white;
@@ -26,3 +22,103 @@ button {
     justify-content: center;
 
 }
+  
+  body {
+      font-family: 'Chicle', serif;
+      font-size: large;
+      margin-top: 50px;
+      padding: 0;
+      background-color: #ffffff77;
+    }
+    
+  .comment-input {
+    position: relative;
+    max-width: 600px;
+    left: 100px;
+    top: 100px;
+  }
+  
+    .move-container {
+      position: relative;
+      left: 100px;
+      top: 100px;
+      width: 600px;
+      height: 500px;
+      overflow: auto;
+    }
+  
+    .comments-container {
+      max-width: 600px;
+      margin: 20px auto;
+      padding: 20px;
+      border-radius: 10px;
+      background-color: #f1f1f1a5;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .comment {
+      display: flex;
+      margin-bottom: 20px;
+    }
+    
+    .user-avatar {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+    
+    .comment-content {
+      flex-grow: 1;
+    }
+    
+    .user-name {
+      font-size: 16px;
+      font-weight: bold;
+      margin: 0 0 5px 0;
+    }
+    
+    .comment-text {
+      /*margin: 0;*/
+      display: flex;
+      padding: 5px;
+      font-size: 14px;
+    }
+  
+    .container-logo {
+      display: block;
+      margin: 0 auto;
+  }
+  .container-logo .logo {
+      width: 600px;
+      position: absolute;
+      right: 180px;
+      aspect-ratio: 1/1;
+  }
+  
+  .comment-input textarea {
+    width: 300px;
+    height: 20px;
+    position: absolute;
+    right: 100px;
+    resize: vertical;
+  }
+  
+  .comment-input input {
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    resize: vertical;
+  }
+  
+  .comment-input button {
+    width: 60px;
+    position: absolute;
+    top: 2px;
+    right: 30px;
+    resize: vertical;
+  }
+  
+  
+  
+  

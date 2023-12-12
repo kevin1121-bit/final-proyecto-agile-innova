@@ -1,18 +1,30 @@
-<div id="login-container" class="login-container d-flex flex-column-reverse flex-md-row">
+<div id="login-container" class="d-flex flex-column-reverse flex-md-row">
     <div class="col-sm-12 col-md-6 d-flex justify-content-center align-items-center">
         <img src="/src/assets/img/logo_afinity.png" alt="img" class="logo-afinity"
         title="image main">
     </div>
-    <div class="col-sm-12 col-md-6 d-flex flex-column justify-content-center">
+    <div class="col-sm-12 col-md-6 d-flex flex-column justify-content-center mt-xs-5">
         <div class="d-flex justify-content-center align-items-center">
-            <form id="form-login" class="form">
+            <form id="form-date" class="form">
                 <div class="mb-3">
-                    <label for="formGroupExampleInput" class="form-label-2 d-flex">Ingrese su fecha de nacimiento</label>
+                    <label for="formGroupExampleInput" class="form-label-2 d-flex mb-3">Ingrese su fecha de nacimiento</label>
                     <input required type="date" class="form-control">
                 </div>
-                <button type="submit" class="button-login">Enviar</button>
+                <button type="submit" class="button-send">Enviar</button>
             </form>
         </div>
         <div id="message-error" class="error-message d-none"><span id="custom-message" class="text-light"></span></div>
     </div>
-</div>
+</div> 
+<div class="comment-input">
+        <input type="text" id="username" placeholder="Tu nombre">
+        <textarea id="commentText" placeholder="Escribe tu comentario"></textarea>
+        <button onclick="addComment()">Añadir</button>
+      </div>
+      <div class="container-logo"><img
+      src= "../assets/img/logo_afinity.png" alt="no carga" class="logo"></div>
+    
+      <div class="move-container">
+        <div class="comments-container" id="comments-container">
+        </div>
+    </div>

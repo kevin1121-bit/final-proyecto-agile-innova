@@ -10,5 +10,9 @@ export const PATHS = {
     dashboard: {
         path: "/dashboard",
         router: "dashboard",
+    },
+    piedra: {
+        path: "/piedra",
+        router: "piedra",
     }
 }
